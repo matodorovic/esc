@@ -5,3 +5,84 @@
     padding: 0;
     list-style-type: none;
 }
+
+header {
+    background-color: #011827;
+    color: white;
+    background-image: none;
+    height: 180px;
+    width: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+
+/*@media screen and (width: max 800px) {
+
+}*/
+
+nav {
+    background-color: #011827;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    color: #8ACFE5;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-list-item {
+    width: fit-content;
+    height: fit-content;
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: #8ACFE5;
+    text-decoration: none;
+}
+
+.filter-cta {
+    width: 4rem;
+    height:1.5rem;
+    border: solid #8ACFE5 1px;
+    border-radius: 3px;
+    color: #8ACFE5;
+}
+
+.challenges-title {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #011827;
+    color: white;
+    height: 216px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.challenges-title {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
